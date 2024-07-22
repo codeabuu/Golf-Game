@@ -1,6 +1,5 @@
-score -9
+score -7
 coins 0
-255,255,255-True
 0,255,0-True
 0,0,0-True
 0,0,255-False
