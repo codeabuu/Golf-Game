@@ -29,14 +29,14 @@ Begin a new game by clicking on the map
 
 ### In Game
 
-Use mouse controls to set the ball at aim, them head to the powermeter and select speed to shoot.
+Use mouse controls and click to set the ball direction, then head to the powermeter and select speed to shoot.
 
 ### Game Controls
 
-* **Mouse:** Aim and select speed to shoot the ball.
+* **Mouse:** Set direction and select speed to shoot the ball.
 * **Keyboard:** Naivagate menus and interact with game elements.
 
-here is a video [demo](https://www.kapwing.com/w/pwhOeY_wet)
+Here is a video [demo](https://www.kapwing.com/w/pwhOeY_wet)
 
 ## Dependencies
 
