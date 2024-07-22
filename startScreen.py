@@ -93,7 +93,7 @@ def getCoins():
     file = open('scores.txt', 'r')
     for line in file:
         l = line.split()
-        if l[0] == 'coints':
+        if l[0] == 'coins':
             file.close()
             return l[1].strip()
         
@@ -224,3 +224,37 @@ def mainScreen(hover=False):
     
     win.blit(surf, (0,0))
     pygame.display.update()
+
+def mouseOver(larger=False):
+    global course1
+    if larger:
+        buttons[0][0] = 415
+        buttons[0][1] = 220
+        buttons[0][2] = 250
+        buttons[0][3] = 250
+        course1 = pygame.transform.scale(course, (250, 250))
+    else:
+        buttons[0][1] = 240
+        buttons[0][0] = 440
+        buttons[0][2] = 200
+        buttons[0][3] = 200
+        course1 = pygame.transform.scale(course, (200, 200))
+    mainScreen()
+
+
+def shopClick(pos):
+    global shopButton
+    i = shopButton
+    if pos[0] > i[0] and pos[0] < i[0] + i[2]:
+        if pos[1] > i[1] and pos[1] < i[1] + i[3]:
+            return True
+    return False
+
+
+def click(pos):
+    for i in buttons:
+        if pos[0] > i[0] and pos[0] < i[0] + i[2]:
+            if pos[1] > i[1] and pos[1] < i[1] + i[3]:
+                return i[4]
+                break
+    return None
