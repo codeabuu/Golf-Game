@@ -36,8 +36,7 @@ Use mouse controls to set the ball at aim, them head to the powermeter and selec
 * **Mouse:** Aim and select speed to shoot the ball.
 * **Keyboard:** Naivagate menus and interact with game elements.
 
-here is a video demo:
-<video controls src="demo.mp4" title="Title"></video>
+here is a video [demo](https://www.kapwing.com/w/pwhOeY_wet)
 
 ## Dependencies
 
